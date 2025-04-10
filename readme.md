@@ -13,7 +13,11 @@ This is a Python-based utility script designed to:
 This project demonstrates fundamental Python concepts including HTTP requests, file handling, error handling, directory operations, and basic input/output workflows.
 
 
+## 📸 Demo
 
+![Demo of Python File Downloader Script](/media/test_run.gif)
+
+![DEMO](https://github.com/guderian120/python_lab/blob/master/media/test_run.gif)
 
 
 
