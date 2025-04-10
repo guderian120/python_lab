@@ -12,7 +12,6 @@ This is a Python-based utility script designed to:
 
 This project demonstrates fundamental Python concepts including HTTP requests, file handling, error handling, directory operations, and basic input/output workflows.
 
----
 
 ## 📸 Demo
 
