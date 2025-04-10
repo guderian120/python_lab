@@ -5,7 +5,7 @@ from datetime import datetime
 
 
 class Downloader: # Instantiate a python class
-    def __init__(self,max_retries=3, retry_delay=2 ): # function runs on python cal
+    def __init__(self,max_retries=3, retry_delay=2 ): # function runs on python class initiation
         self.url = url
         self.local_file = local_file
         self.max_retries = max_retries
