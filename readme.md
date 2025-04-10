@@ -18,6 +18,7 @@ This project demonstrates fundamental Python concepts including HTTP requests, f
 
 ![Demo of Python File Downloader Script](/media/test_run.gif)
 
+![Bucket Setup Image](/media/test_run.png)
 
 
 ## 🚀 How It Works
