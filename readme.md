@@ -86,5 +86,5 @@ Lab for Intro to Python DevOps
 
 ## 📝 License
 
-This project is for educational use and demonstration purposes.
+This project is for educational use and demonstration purposes and submitted as part of my labs with Amalitech Ghana
 ```
