@@ -18,9 +18,7 @@ This project demonstrates fundamental Python concepts including HTTP requests, f
 
 ![Demo of Python File Downloader Script](/media/test_run.gif)
 
-> Replace `path/to/your/demo.gif` with the actual path to your GIF after uploading.
 
----
 
 ## 🚀 How It Works
 
