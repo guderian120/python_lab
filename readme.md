@@ -15,9 +15,9 @@ This project demonstrates fundamental Python concepts including HTTP requests, f
 
 ## 📸 Demo
 
-![Demo of Python File Downloader Script](/media/test_run.gif)
+![Demo](/media/test_run.gif)
 
-![DEMO](https://github.com/guderian120/python_lab/blob/master/media/test_run.gif)
+<!-- ![DEMO](https://github.com/guderian120/python_lab/blob/master/media/test_run.gif) -->
 
 
 
