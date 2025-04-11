@@ -59,11 +59,8 @@ andy.amponsah/
 
 ### To Run:
 ```bash
-python your_script_name.py
+python lab1.py
 ```
-
-Replace `your_script_name.py` with the name of your Python file.
-
 ---
 
 ## ❗ Notes
