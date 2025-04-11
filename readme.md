@@ -16,6 +16,8 @@ This project demonstrates fundamental Python concepts including HTTP requests, f
 ## 📸 Demo
 
 ![Demo](media/test_run.gif)
+
+## File Structure
 ![Tree](media/tree.png)
 
 <!-- ![DEMO](https://github.com/guderian120/python_lab/blob/master/media/test_run.gif) -->
