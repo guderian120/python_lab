@@ -20,7 +20,7 @@ class Downloader: # Instantiate a python class
                 print(f"Directory '{self.directory_name}' has been removed successfully.")
             except Exception as e: # if any errors encounted, pipe error message into variable e
                 print(f"Error: {e}") #print  e
-                sys.exit(0) # exit with a problem
+                sys.exit(1) # exit with a problem
 
         
         if not os.path.exists(directory_name): # if there is no directory
@@ -56,7 +56,7 @@ class Downloader: # Instantiate a python class
                 with open(local_file, "r") as file: # open the new file in read mode
                     print("\nYou Entered: ", end=' ') 
                     print(file.read())# print the file on screen
-                    sys.exit(1) #exit without errors
+                    sys.exit(0) #exit without errors
 
             except(requests.RequestException, IOError) as e: # in cases of error retrieving file from api
                 print(f"Attempt {attempt} failed: with error")
