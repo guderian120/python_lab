@@ -65,12 +65,13 @@ class Downloader: # Instantiate a python class
                     time.sleep(self.retry_delay)
                 else: print(f"All attempts failed")
                      
-directory_name = 'andy.amponsah'
-local_file = os.path.join(directory_name, 'andy.amponsah.txt')
-url = "https://raw.githubusercontent.com/sdg000/pydevops_intro_lab/main/change_me.txt"
-# url = "http://127.0.0.1:8000/api/dashboard" # django test url
+
 
 if __name__ == '__main__': #if running script from same script itself
+    directory_name = 'andy.amponsah'
+    local_file = os.path.join(directory_name, 'andy.amponsah.txt')
+    url = "https://raw.githubusercontent.com/sdg000/pydevops_intro_lab/main/change_me.txt"
+    # url = "http://127.0.0.1:8000/api/dashboard" # django test url
     c = Downloader(max_retries = 3, retry_delay=1)
     c.create_dir(directory_name)
     c.get_file_from_url(url,local_file )
