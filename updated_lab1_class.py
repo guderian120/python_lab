@@ -5,7 +5,7 @@ from datetime import datetime
 
 
 class Downloader: # Instantiate a python class
-    def __init__(self,max_retries=3, retry_delay=2 ): # function runs on python cal
+    def __init__(self,max_retries=3, retry_delay=2 ): # function runs on python class initiation
         self.url = url
         self.local_file = local_file
         self.max_retries = max_retries
@@ -19,7 +19,7 @@ class Downloader: # Instantiate a python class
                 shutil.rmtree(directory_name) # remove it with
                 print(f"Directory '{self.directory_name}' has been removed successfully.")
             except Exception as e: # if any errors encounted, pipe error message into variable e
-                print(f"Error: {e}") #print variable e
+                print(f"Error: {e}") #print  e
                 sys.exit(0) # exit with a problem
 
         
@@ -36,7 +36,7 @@ class Downloader: # Instantiate a python class
 
                 print(f"File successfully downloaded.")
                 with open(local_file, 'wb') as output_file: # open file to write downloaded bytes
-                    for chunk in response.iter_content(chunk_size=8192): # chunk files for downloads
+                    for chunk in response.iter_content(chunk_size=8192): # chunk files for write
                         output_file.write(chunk)
                 print('File saved successfully.')
                 

@@ -15,7 +15,7 @@ This project demonstrates fundamental Python concepts including HTTP requests, f
 
 ## 📸 Demo
 
-![Demo](/media/test_run.gif)
+![Demo](media/test_run.gif)
 
 <!-- ![DEMO](https://github.com/guderian120/python_lab/blob/master/media/test_run.gif) -->
 
@@ -92,5 +92,5 @@ Lab for Intro to Python DevOps
 
 ## 📝 License
 
-This project is for educational use and demonstration purposes.
+This project is for educational use and demonstration purposes and submitted as part of my labs with Amalitech Ghana
 ```
